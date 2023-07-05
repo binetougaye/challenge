@@ -18,7 +18,7 @@ img{
     border: 1px solid ;
     border-radius: 5px;
     max-width: 800px;
-    margin: 15% auto;
+    margin: 100px auto;
 }
 .picture img{
     width: 100%;
@@ -44,6 +44,9 @@ img{
 .text h1{
     margin-bottom: 20px;
 }
+.second h1,p{
+    /* margin-bottom: 2px; */
+}
 .text .first p{
     line-height: 30px;
 }
@@ -61,11 +64,16 @@ span{
         flex-wrap: wrap-reverse;
         width: 100%;
         text-align: center;
+        margin: 0 auto;
     }
     .second{
         display: flex;
         align-items: center;
         flex-direction: column;
 
+    }
+    .picture img{
+        width: 100%;
+        /* height: 100%; */
     }
 }
