@@ -42,16 +42,19 @@ img{
     color: #fff;
 }
 .text h1{
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
-.second h1,p{
-    /* margin-bottom: 2px; */
+.second h1 {
+    margin: 0;
 }
 .text .first p{
     line-height: 30px;
 }
 span{
     color: mediumslateblue;
+}
+#h1{
+    margin: 0;
 }
 .second{
     display: flex;
